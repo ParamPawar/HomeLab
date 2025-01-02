@@ -1,5 +1,5 @@
 import { useState, useCallback } from 'react';
-import { SearchResult } from '../types/search';
+import type { SearchResult, SearchFilter } from '../types/search';
 import { debounce } from '../utils/debounce';
 
 export const useSearch = () => {

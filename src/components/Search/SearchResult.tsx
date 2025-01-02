@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { SearchResult as SearchResultType } from '../../types/search';
+import type { SearchResult as SearchResultType } from '../../types/search';
 
 interface SearchResultProps {
   result: SearchResultType;
@@ -23,3 +23,5 @@ const SearchResult: React.FC<SearchResultProps> = ({ result }) => {
     </motion.div>
   );
 };
+
+export default SearchResult;

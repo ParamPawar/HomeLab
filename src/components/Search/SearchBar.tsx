@@ -2,7 +2,8 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Search as SearchIcon } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useSearch } from '../../hooks/useSearch';
-import { SearchResult } from '../../types/search';
+import type { SearchResult as SearchResultType } from '../../types/search';
+import SearchResult from './SearchResult';
 
 const SearchBar: React.FC = () => {
   const [query, setQuery] = useState('');
@@ -71,3 +72,5 @@ const SearchBar: React.FC = () => {
     </div>
   );
 };
+
+export default SearchBar;

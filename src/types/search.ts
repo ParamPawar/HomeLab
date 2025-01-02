@@ -4,3 +4,8 @@ export interface SearchResult {
   excerpt: string;
   category?: string;
 }
+
+export type SearchFilter = {
+  category?: string;
+  query: string;
+};
