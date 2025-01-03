@@ -1,12 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import type { SearchResult as SearchResultType } from '../../types/search';
 
-interface SearchResultProps {
-  result: SearchResultType;
-}
-
-const SearchResult: React.FC<SearchResultProps> = ({ result }) => {
+const SearchResult = ({ result }) => {
   return (
     <motion.div
       whileHover={{ backgroundColor: 'rgba(59, 130, 246, 0.1)' }}

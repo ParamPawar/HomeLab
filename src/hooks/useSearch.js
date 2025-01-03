@@ -1,13 +1,12 @@
 import { useState, useCallback } from 'react';
-import type { SearchResult, SearchFilter } from '../types/search';
 import { debounce } from '../utils/debounce';
 
 export const useSearch = () => {
-  const [results, setResults] = useState<SearchResult[]>([]);
+  const [results, setResults] = useState([]);
   const [loading, setLoading] = useState(false);
 
   const search = useCallback(
-    debounce(async (query: string) => {
+    debounce(async (query) => {
       if (!query.trim()) {
         setResults([]);
         return;
@@ -17,7 +16,7 @@ export const useSearch = () => {
       try {
         // Simulate API call with mock data
         await new Promise(resolve => setTimeout(resolve, 500));
-        const mockResults: SearchResult[] = [
+        const mockResults = [
           {
             id: '1',
             title: 'Setting up a Home Lab',

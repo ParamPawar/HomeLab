@@ -1,6 +1,4 @@
-import { MenuItem } from '../types/menu';
-
-export const menuItems: MenuItem[] = [
+export const menuItems = [
   {
     id: 'getting-started',
     label: 'Getting Started',

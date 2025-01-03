@@ -1,12 +1,7 @@
 import React from 'react';
 import { PanelLeftClose, PanelLeftOpen } from 'lucide-react';
 
-interface SidebarToggleProps {
-  isOpen: boolean;
-  onToggle: () => void;
-}
-
-const SidebarToggle: React.FC<SidebarToggleProps> = ({ isOpen, onToggle }) => {
+const SidebarToggle = ({ isOpen, onToggle }) => {
   return (
     <button
       onClick={onToggle}

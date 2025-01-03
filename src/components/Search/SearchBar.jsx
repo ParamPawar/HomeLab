@@ -2,18 +2,17 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Search as SearchIcon } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useSearch } from '../../hooks/useSearch';
-import type { SearchResult as SearchResultType } from '../../types/search';
 import SearchResult from './SearchResult';
 
-const SearchBar: React.FC = () => {
+const SearchBar = () => {
   const [query, setQuery] = useState('');
   const [isOpen, setIsOpen] = useState(false);
-  const searchRef = useRef<HTMLDivElement>(null);
+  const searchRef = useRef(null);
   const { results, loading, search } = useSearch();
 
   useEffect(() => {
-    const handleClickOutside = (event: MouseEvent) => {
-      if (searchRef.current && !searchRef.current.contains(event.target as Node)) {
+    const handleClickOutside = (event) => {
+      if (searchRef.current && !searchRef.current.contains(event.target)) {
         setIsOpen(false);
       }
     };
@@ -22,7 +21,7 @@ const SearchBar: React.FC = () => {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
-  const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleSearch = (e) => {
     const value = e.target.value;
     setQuery(value);
     search(value);

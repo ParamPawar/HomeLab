@@ -1,11 +1,6 @@
 import React from 'react';
 
-interface Content {
-  title: string;
-  content: React.ReactNode;
-}
-
-export const contents: Record<string, Content> = {
+export const contents = {
   introduction: {
     title: 'Introduction to Home Labs',
     content: (

@@ -1,15 +1,7 @@
 import React, { useState } from 'react';
 import { ChevronDown, ChevronRight, FolderClosed, FolderOpen, FileText } from 'lucide-react';
-import { MenuItem as MenuItemType } from '../../types/menu';
 
-interface MenuItemProps {
-  item: MenuItemType;
-  onSelect: (id: string) => void;
-  selectedId: string;
-  level?: number;
-}
-
-const MenuItem: React.FC<MenuItemProps> = ({ item, onSelect, selectedId, level = 0 }) => {
+const MenuItem = ({ item, onSelect, selectedId, level = 0 }) => {
   const [isOpen, setIsOpen] = useState(false);
   const paddingLeft = `${level * 1.25}rem`;
 

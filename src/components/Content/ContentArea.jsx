@@ -1,11 +1,7 @@
 import React from 'react';
 import { contents } from '../../data/contents';
 
-interface ContentAreaProps {
-  selectedId: string;
-}
-
-const ContentArea: React.FC<ContentAreaProps> = ({ selectedId }) => {
+const ContentArea = ({ selectedId }) => {
   const content = contents[selectedId] || {
     title: 'Select a topic',
     content: <p>Please select a topic from the menu to view its content.</p>,

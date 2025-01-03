@@ -1,12 +1,7 @@
 import React from 'react';
 import { ChevronDown, ChevronRight } from 'lucide-react';
 
-interface ExplorerHeaderProps {
-  isExpanded: boolean;
-  onToggle: () => void;
-}
-
-const ExplorerHeader: React.FC<ExplorerHeaderProps> = ({ isExpanded, onToggle }) => {
+const ExplorerHeader = ({ isExpanded, onToggle }) => {
   return (
     <button
       onClick={onToggle}

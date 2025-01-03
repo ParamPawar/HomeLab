@@ -4,17 +4,7 @@ import MenuItem from './MenuItem';
 import ExplorerHeader from './ExplorerHeader';
 import { useCollapsible } from '../../hooks/useCollapsible';
 
-interface SidebarProps {
-  onSelect: (id: string) => void;
-  selectedId: string;
-  isOpen: boolean;
-}
-
-const Sidebar: React.FC<SidebarProps> = ({
-  onSelect,
-  selectedId,
-  isOpen,
-}) => {
+const Sidebar = ({ onSelect, selectedId, isOpen }) => {
   const { isExpanded, toggle } = useCollapsible(true);
 
   return (
