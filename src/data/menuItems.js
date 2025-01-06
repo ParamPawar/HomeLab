@@ -24,7 +24,7 @@ export const menuItems = [
     label: 'Software Stack',
     type: 'folder',
     children: [
-      { id: 'virtualization', label: 'Virtualization', type: 'file' },
+      { id: 'virtualization', label: 'Virtualization', type: 'file' },q
       { id: 'containers', label: 'Containers', type: 'file' },
       { id: 'monitoring', label: 'Monitoring', type: 'file' },
     ],
