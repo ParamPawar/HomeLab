@@ -1,40 +1,32 @@
 // import { defineConfig } from 'vite';
 // import react from '@vitejs/plugin-react';
 
-// // https://vitejs.dev/config/
 // export default defineConfig({
 //   plugins: [react()],
-//   optimizeDeps: {
-//     exclude: ['lucide-react'],
+//   resolve: {
+//     alias: {
+//       '@': '/src',  
+//     },
 //   },
-// });
-
-
-// import { defineConfig } from 'vite';
-// import react from '@vitejs/plugin-react';
-
-// export default defineConfig({
-//   plugins: [react()],
 //   server: {
-//     open: true, // Automatically opens the browser
+//     host: '0.0.0.0', // Allow access from the local network
+//     port: 3000,       // setup for loacl network
 //   },
-//   optimizeDeps: {
-//     include: ['react', 'react-dom'],
-//   },
 // });
 
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
+import path from 'path'; // Import the path module
 
 export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      '@': '/src',  
+      '@': path.resolve(__dirname, './src'), // Correct alias setup
     },
   },
   server: {
     host: '0.0.0.0', // Allow access from the local network
-    port: 3000,       // setup for loacl network
+    port: 3000, // Setup for local network
   },
 });

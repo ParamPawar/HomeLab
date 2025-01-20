@@ -1,5 +1,7 @@
 import React from 'react';
 import { contents } from '../../data/contents';
+import { HoverCard, HoverCardContent, HoverCardTrigger } from "@/components/ui/hover-card";
+
 
 const ContentArea = ({ selectedId }) => {
   const content = contents[selectedId] || {
