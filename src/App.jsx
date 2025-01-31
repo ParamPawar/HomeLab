@@ -53,7 +53,7 @@ function App() {
       <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
 
       <header className="h-14 border-b border-gray-200 dark:border-gray-700 flex items-center justify-between px-4">
-        <h1 className="text-xl font-bold">Home Lab Guide</h1>
+        <h1 className="text-xl font-bold">HomeLab</h1>
         <div className="flex items-center gap-4 flex-1 max-w-2xl mx-4">
           <SearchBar />
         </div>
