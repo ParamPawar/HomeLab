@@ -29,5 +29,4 @@ export const menuItems = [
       { id: 'monitoring', label: 'Monitoring', type: 'file' },
     ],
   },
-  
 ];
