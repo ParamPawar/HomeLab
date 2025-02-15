@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const legacy = {
+ const legacy = {
   title: 'Legacy Hardware & Systems',
   content: (
     <div className="space-y-6">
@@ -44,3 +44,5 @@ export const legacy = {
     </div>
   ),
 };
+
+export default legacy;

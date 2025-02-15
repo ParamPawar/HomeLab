@@ -1,35 +1,49 @@
 import React from 'react';
 
-export const requirements = {
-  title: 'Requirements',
+const requirements = {
+  title: 'Home Lab Requirements: Essential Hardware & Software',
   content: (
     <div className="space-y-6">
+      <img
+        src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80"
+        alt="Home Lab Setup Requirements"
+        className="w-full h-64 object-cover rounded-lg"
+      />
       <p className="text-lg">
-        A home lab is a personal testing environment that allows tech enthusiasts, IT professionals, and hobbyists to experiment with various technologies, learn new skills, and test configurations in a safe environment. In today's digital age, a home lab is not only a passion project but a critical stepping stone toward mastering modern IT infrastructure. Whether you want to simulate network environments, host virtual machines, or explore the latest software and hardware innovations, a home lab provides a flexible and secure sandbox for experimentation.
+        Setting up a home lab is an exciting journey into the world of technology. To ensure a successful and efficient home lab, it's essential to start with the right mix of hardware and software tailored to your needs.
       </p>
-      <p className="text-lg">
-        One of the greatest advantages of a home lab is the opportunity for hands-on learning. By building a home lab, you can take theoretical knowledge and transform it into practical experience. This approach is especially valuable for those pursuing careers in system administration, network engineering, or cybersecurity. A well-designed home lab helps you hone your troubleshooting skills, experiment with new setups, and gain confidence before implementing solutions in a live production environment.
-      </p>
-      <p className="text-lg">
-        Investing in a home lab does not have to be expensive. In fact, a home lab can be built with a range of hardware options to fit various budgets. Affordable options include devices like the Raspberry Pi and other low-cost single-board computers (SBCs). For those needing more robust performance, repurposed old desktop PCs or servers can be an excellent choice. And if you require high-performance storage solutions, a NAS (Network Attached Storage) can provide the necessary power, even though it might come at a higher price. Ultimately, a home lab allows you to choose hardware that meets your needs while balancing cost and performance.
-      </p>
-      <p className="text-lg">
-        From a software perspective, a home lab opens up endless possibilities. You can experiment with various operating systems such as different Linux distributions, Windows Server, or even FreeBSD to find the best fit for your projects. Additionally, virtualization and containerization tools like Proxmox VE, Docker, and Kubernetes let you simulate real-world scenarios and deploy complex applications in a controlled environment. This hands-on approach not only sharpens your technical skills but also gives you a competitive edge in the IT industry.
-      </p>
-      <h2 className="text-xl font-semibold mt-6">Why Build a Home Lab?</h2>
+      <h2 className="text-xl font-semibold mt-6">Essential Hardware Requirements</h2>
       <ul className="list-disc pl-6 space-y-2">
-        <li>Hands-on learning experience</li>
-        <li>Safe environment for testing</li>
-        <li>Skill development</li>
-        <li>Career advancement</li>
-        <li>Personal projects hosting</li>
+        <li>
+          <strong>Servers & Workstations:</strong> Invest in reliable machines that can handle multiple tasks simultaneously, ensuring smooth performance.
+        </li>
+        <li>
+          <strong>Networking Equipment:</strong> High-quality routers, switches, and cabling are crucial for maintaining a stable and secure connection.
+        </li>
+        <li>
+          <strong>Storage Solutions:</strong> Consider NAS systems or external drives for scalable and secure data storage.
+        </li>
       </ul>
-      <p className="text-lg">
-        Beyond personal learning, a home lab is an invaluable resource for professionals. It offers a risk-free environment to test new software updates, configure servers, and simulate network setups. This real-world practice not only builds technical competence but also enhances problem-solving abilities. Moreover, by documenting and sharing your home lab configurations online, you contribute to the wider tech community—helping others learn from your experiences while also establishing your reputation as a knowledgeable professional in the realm of home lab technology.
+      <h2 className="text-xl font-semibold mt-6">Must-Have Software Components</h2>
+      <ul className="list-disc pl-6 space-y-2">
+        <li>
+          <strong>Operating Systems:</strong> Choose between Linux, Windows, or macOS to match your learning and deployment needs.
+        </li>
+        <li>
+          <strong>Virtualization Tools:</strong> Tools like VirtualBox, VMware, or Proxmox allow you to run multiple operating systems on a single machine.
+        </li>
+        <li>
+          <strong>Security Solutions:</strong> Firewalls, antivirus software, and monitoring tools are essential to protect your home lab from potential threats.
+        </li>
+      </ul>
+      <p className="text-lg mt-4">
+        A well-planned home lab not only enhances your technical skills but also provides a robust environment for testing, learning, and running production-level services. By carefully selecting the right hardware and software, you can create a scalable and secure setup that grows with your needs.
       </p>
       <p className="text-lg">
-        In summary, a home lab is more than just a hobby. It’s an essential tool for exploring, understanding, and mastering the technologies that power modern computing. Whether you’re just starting out or looking to take your skills to the next level, investing in a home lab is a smart, strategic move that promises ongoing learning, innovation, and career growth in the ever-evolving world of IT.
+        Explore our other guides to learn more about setting up, optimizing, and troubleshooting your home lab. Your journey to mastering IT starts with the right foundation.
       </p>
     </div>
   ),
 };
+
+export default requirements;

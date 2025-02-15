@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const remoteAccess = {
+const remoteAccess = {
   title: 'Remote Access for Your Home Lab',
   content: (
     <div className="space-y-6">
@@ -41,3 +41,5 @@ export const remoteAccess = {
     </div>
   ),
 };
+
+export default remoteAccess;

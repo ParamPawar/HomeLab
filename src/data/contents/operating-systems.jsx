@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const operatingSystems = {
+const operatingSystems = {
   title: 'Operating Systems for Your Home Lab',
   content: (
     <div className="space-y-6">
@@ -55,3 +55,5 @@ export const operatingSystems = {
     </div>
   ),
 };
+
+export default operatingSystems;

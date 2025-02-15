@@ -1,36 +1,69 @@
-// import { introduction } from './introduction';
-// import { requirements } from './requirements';
-// import { networking } from './networking';
-
-// export const contents = {
-//   introduction,
-//   requirements,
-//   networking,
-// };
-import { introduction } from './introduction';
-import { requirements } from './requirements';
-import { setup } from './setup';
-import { servers } from './servers';
-import { networking } from './networking';
-import { storage } from './storage';
-import { operatingSystems } from './operating-systems';
-import { virtualization } from './virtualization';
-import { security } from './security';
-import { backup } from './backup';
-import { localAI } from './local-ai';
-import { modelTraining } from './model-training';
+import introduction from './introduction';
+import requirements from './requirements';
+import setup from './setup';
+import raspberryPi from './raspberry-pi';
+import sbc from './sbc';
+import nas from './nas';
+import legacy from './legacy';
+import selfHostedCloud from './self-hosted-cloud';
+import fileSystems from './file-systems';
+import operatingSystems from './operating-systems';
+import virtualization from './virtualization';
+import containers from './containers';
+import networking from './networking';
+import security from './security';
+import remoteAccess from './remote-access';
+import firewalls from './firewalls';
+import vpn from './vpn';
+import monitoring from './monitoring';
+import backup from './backup';
+import logging from './logging';
+import alerting from './alerting';
+import ansible from './ansible';
+import ciCd from './ciCd';
+import localAi from './localAi';
+import modelTraining from './model-training';
+import gpuAcceleration from './gpu-acceleration';
+import modelInference from './modelInference';
+import contentCreation from './content-creation';
+import markdownGuide from './markdown-guide';
+import contentStorage from './content-storage';
+import compute from './compute';
+import servers from './servers';
+import storage from './storage';
 
 export const contents = {
   introduction,
   requirements,
   setup,
-  servers,
-  networking,
-  storage,
+  raspberryPi,
+  sbc,
+  nas,
+  legacy,
+  selfHostedCloud,
+  fileSystems,
   operatingSystems,
   virtualization,
+  containers,
+  networking,
   security,
+  remoteAccess,
+  firewalls,
+  vpn,
+  monitoring,
   backup,
-  localAI,
+  logging,
+  alerting,
+  ansible,
+  ciCd,
+  localAi,
   modelTraining,
+  gpuAcceleration,
+  modelInference,
+  contentCreation,
+  markdownGuide,
+  contentStorage,
+  compute,
+  servers,
+  storage,
 };

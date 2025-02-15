@@ -40,23 +40,4 @@ const Backup = () => {
   );
 };
 
-export default Backup;
-
-// import React from 'react';
-
-// export const backup = {
-//   title: 'Backup Strategies',
-//   content: (
-//     <div className="space-y-6">
-//       <p className="text-lg">
-//         Ensuring reliable backups is a crucial part of maintaining a home lab. Backups prevent data loss due to hardware failure, software issues, or cyber threats.
-//       </p>
-//       <h2 className="text-xl font-semibold mt-6">Types of Backups</h2>
-//       <ul className="list-disc pl-6 space-y-2">
-//         <li><strong>Full Backup</strong> - A complete copy of all data.</li>
-//         <li><strong>Incremental Backup</strong> - Saves only the changes made since the last backup.</li>
-//         <li><strong>Differential Backup</strong> - Stores changes since the last full backup.</li>
-//       </ul>
-//     </div>
-//   ),
-// };
+export default Backup;  // <-- Fix: Use `export default`
