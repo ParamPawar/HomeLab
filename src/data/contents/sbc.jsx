@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const sbc = {
+const sbc = {
   title: 'Low-Cost Single Board Computers (SBCs)',
   content: (
     <div className="space-y-6">

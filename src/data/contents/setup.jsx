@@ -1,68 +1,43 @@
 import React from 'react';
 
-const Setup = () => (
-  <article className="prose dark:prose-invert max-w-none p-8">
-    <h1>Initial Setup Guide</h1>
-    <p>
-      Setting up your home lab is a critical step towards hands-on learning and innovation. This guide will walk you through the necessary hardware installations, software configurations, and network setups to build a robust, high-performance home lab environment.
-    </p>
-    
-    <h2>Hardware Installation</h2>
-    <p>
-      The first step is to choose and install the right hardware for your home lab. Depending on your budget and requirements, you might consider:
-    </p>
-    <ul>
-      <li>
-        <strong>Raspberry Pi:</strong> An affordable and energy-efficient option ideal for lightweight tasks and experimentation.
-      </li>
-      <li>
-        <strong>Low-Cost SBCs (Single Board Computers):</strong> These offer similar benefits to the Raspberry Pi, often with unique features tailored to specific needs.
-      </li>
-      <li>
-        <strong>NAS (Network Attached Storage):</strong> Provides high-performance storage solutions, perfect for data-intensive projects, though they can be more expensive.
-      </li>
-      <li>
-        <strong>Old Desktop PCs/Servers:</strong> Repurposing older hardware can be an economical way to create a powerful lab for virtualization or multiple service hosting.
-      </li>
-    </ul>
-    
-    <h2>Software Installation</h2>
-    <p>
-      After installing your hardware, the next step is to set up the software environment. Begin by installing a robust operating system that fits your lab's purpose. Popular choices include various Linux distributions such as Ubuntu Server, Debian, or CentOS, though Windows Server and FreeBSD are also viable options.
-    </p>
-    <p>
-      Once the OS is in place, install the necessary tools and applications:
-    </p>
-    <ul>
-      <li>
-        <strong>Virtualization Tools:</strong> Software such as VirtualBox, VMware, or Proxmox VE allows you to create virtual environments for testing and development.
-      </li>
-      <li>
-        <strong>Containerization Software:</strong> Docker helps manage containerized applications, offering efficient resource utilization.
-      </li>
-      <li>
-        <strong>Monitoring and Automation:</strong> Tools like Prometheus, Grafana, and Ansible assist in performance monitoring and automating routine tasks.
-      </li>
-    </ul>
-    
-    <h2>Network Configuration</h2>
-    <p>
-      A reliable network setup is essential. Configure your router, firewall, and VPN (if needed) to secure and manage your home lab's connectivity. Assign static IP addresses for critical devices and enable port forwarding to ensure that your services are accessible and secure.
-    </p>
-    
-    <h2>Final Steps and Testing</h2>
-    <p>
-      With hardware and software in place, it’s time to run thorough tests. Verify that all components are communicating properly and that your configurations work as expected. Regularly back up your settings and document any customizations or issues encountered during the setup process. This ongoing testing ensures your lab remains stable and secure.
-    </p>
-    
-    <h2>Additional Resources</h2>
-    <p>
-      For further guidance and advanced configurations, explore our other sections on hardware, requirements, and advanced topics. 
-    </p>
-    <p>
-      <a href="#" target="_blank" rel="noopener noreferrer">YouTube Video: [Link Placeholder]</a>
-    </p>
-  </article>
-);
+const setup = {
+  title: 'Home Lab Setup: Your Comprehensive Guide',
+  content: (
+    <div className="space-y-6">
+      <img
+        src="https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&q=80"
+        alt="Step-by-step home lab setup"
+        className="w-full h-64 object-cover rounded-lg"
+      />
+      <p className="text-lg">
+        Building a home lab is a crucial step for tech enthusiasts, IT professionals, and hobbyists alike. In this guide, you'll learn how to establish a robust home lab environment that is scalable, secure, and perfectly tailored to your needs.
+      </p>
+      <h2 className="text-xl font-semibold mt-6">Step-by-Step Home Lab Setup Process</h2>
+      <ol className="list-decimal pl-6 space-y-2">
+        <li>
+          <strong>Plan Your Environment:</strong> Define your goals, assess the hardware and software requirements, and outline your lab’s scope.
+        </li>
+        <li>
+          <strong>Gather Essential Hardware:</strong> Invest in reliable servers, workstations, and networking equipment to ensure a stable setup.
+        </li>
+        <li>
+          <strong>Install and Configure:</strong> Set up your operating systems, virtualization platforms, and necessary software tools.
+        </li>
+        <li>
+          <strong>Implement Security Measures:</strong> Configure firewalls, antivirus software, and other security protocols to protect your network.
+        </li>
+        <li>
+          <strong>Test and Optimize:</strong> Validate the performance of your home lab, optimize settings, and adjust configurations as needed.
+        </li>
+      </ol>
+      <p className="text-lg mt-4">
+        Whether you are setting up a lab for learning, testing, or production, this guide offers clear, actionable steps to help you get started. A well-organized home lab can boost your technical skills and provide a safe environment for experimenting with new technologies.
+      </p>
+      <p className="text-lg">
+        Explore more topics on Home Lab setup and maintenance to ensure your lab remains efficient, secure, and future-proof.
+      </p>
+    </div>
+  ),
+};
 
-export default Setup;
+export default setup;

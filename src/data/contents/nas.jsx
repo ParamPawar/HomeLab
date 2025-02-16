@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const nas = {
+const nas = {
   title: 'Network Attached Storage (NAS) for Your Home Lab',
   content: (
     <div className="space-y-6">
@@ -56,3 +56,5 @@ export const nas = {
     </div>
   ),
 };
+
+export default nas;

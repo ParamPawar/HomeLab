@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const introduction = {
+const introduction = {
   title: 'Introduction to Home Labs',
   content: (
     <div className="space-y-6">
@@ -15,16 +15,10 @@ export const introduction = {
       <h2 className="text-xl font-semibold mt-6">Perspectives on Home Labs:</h2>
       <ul className="list-disc pl-6 space-y-2">
         <li>
-          <div className="font-bold text-black hover:text-gray-800">
-            <strong>Hardware Haven: </strong>
-          </div>
-          Hosting things wherever, on whatever, and however you want.
+          <strong>Hardware Haven: </strong> Hosting things wherever, on whatever, and however you want.
         </li>
         <li>
-          <div className="font-bold text-black hover:text-gray-800">
-            <strong>Techno Tim: </strong>
-          </div>
-          A safe environment for testing, learning, and experimenting without breaking production systems.
+          <strong>Techno Tim: </strong> A safe environment for testing, learning, and experimenting without breaking production systems.
         </li>
         <li>
           <strong>2GuysTek: </strong>
@@ -46,3 +40,5 @@ export const introduction = {
     </div>
   ),
 };
+
+export default introduction; // ✅ Correctly exporting the object

@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const raspberryPi = {
+const raspberryPi = {
   title: 'Raspberry Pi: A Versatile Home Lab Solution',
   content: (
     <div className="space-y-6">
@@ -48,3 +48,5 @@ export const raspberryPi = {
     </div>
   ),
 };
+
+export default raspberryPi;

@@ -1,6 +1,5 @@
 import React from 'react';
-
-export const monitoring = {
+const monitoring = {
   title: 'Monitoring in Your Home Lab',
   content: (
     <div className="space-y-6">
@@ -68,3 +67,5 @@ export const monitoring = {
     </div>
   ),
 };
+
+export default monitoring;

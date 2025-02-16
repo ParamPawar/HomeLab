@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const modelTraining = {
+const modelTraining = {
   title: 'Model Training in Your Home Lab',
   content: (
     <div className="space-y-6">
@@ -47,3 +47,5 @@ export const modelTraining = {
     </div>
   ),
 };
+
+export default modelTraining;

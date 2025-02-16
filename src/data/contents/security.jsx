@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const security = {
+ const security = {
   title: 'Security in Your Home Lab',
   content: (
     <div className="space-y-6">
@@ -44,3 +44,5 @@ export const security = {
     </div>
   ),
 };
+
+export default security;
