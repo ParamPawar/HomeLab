@@ -40,8 +40,8 @@ const contentCreation = {
         For a comprehensive guide on crafting compelling, SEO-friendly content for your home lab, watch our detailed video tutorial:
       </p>
       <p className="text-lg">
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          YouTube Video: [Link Placeholder]
+        <a href="https://www.youtube.com/watch?v=V_0dNE-H2gw&ab_channel=ColeMedin" target="_blank" rel="noopener noreferrer">
+          YouTube by ColeMedin: Content Creation Strategies for Home Labs
         </a>
       </p>
     </div>

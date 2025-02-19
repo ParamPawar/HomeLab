@@ -34,8 +34,8 @@ const remoteAccess = {
         For a step-by-step walkthrough on setting up secure remote access for your home lab, check out this video tutorial:
       </p>
       <p className="text-lg">
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          YouTube Video: [Link Placeholder]
+        <a href="https://www.youtube.com/watch?v=OdZHh3Zj34c&ab_channel=TechWithEmilio" target="_blank" rel="noopener noreferrer">
+          YouTube by TechWithEmilio: Remote Access for Home Labs
         </a>
       </p>
     </div>

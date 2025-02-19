@@ -46,8 +46,8 @@ const alerting = {
         For a comprehensive guide on setting up and configuring advanced alerting systems in your home lab, check out our detailed video tutorial:
       </p>
       <p className="text-lg">
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          YouTube Video: [Link Placeholder]
+        <a href="https://www.youtube.com/watch?v=Cj7A46NuACA&ab_channel=VirtualizationHowto" target="_blank" rel="noopener noreferrer">
+          YouTube by VirtualizationHowto: Home Lab Alerting Best Practices
         </a>
       </p>
     </div>

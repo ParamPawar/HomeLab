@@ -37,15 +37,7 @@ const markdownGuide = {
           Keep the language concise and focused on your target audience—home lab enthusiasts.
         </li>
       </ul>
-      <h2 className="text-xl font-semibold mt-6">YouTube Video Tutorial</h2>
-      <p className="text-lg">
-        For a step-by-step guide on how to effectively use Markdown for your home lab documentation, watch our detailed video tutorial:
-      </p>
-      <p className="text-lg">
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          YouTube Video: [Link Placeholder]
-        </a>
-      </p>
+      
     </div>
   ),
 };

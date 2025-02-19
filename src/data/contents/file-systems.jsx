@@ -28,8 +28,8 @@ const fileSystems = {
         Watch our step-by-step guide on setting up and managing advanced file systems in your home lab:
       </p>
       <p className="text-lg">
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          YouTube Video: [Link Placeholder]
+        <a href="https://www.youtube.com/watch?v=HdEozE2gN9I&ab_channel=ChrisTitusTech" target="_blank" rel="noopener noreferrer">
+          YouTube by ChrisTitusTech: Advanced File Systems for Home Labs
         </a>
       </p>
     </div>

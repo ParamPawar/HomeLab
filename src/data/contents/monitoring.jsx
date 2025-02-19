@@ -60,8 +60,8 @@ const monitoring = {
         For a visual walkthrough on setting up and configuring monitoring in your home lab, check out this video:
       </p>
       <p className="text-lg">
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          YouTube Video: [Link Placeholder]
+        <a href="https://www.youtube.com/watch?v=DbF96IHOZig&ab_channel=NetworkChuck" target="_blank" rel="noopener noreferrer">
+          YouTube by NetworkChuck: Monitoring Your Home Lab
         </a>
       </p>
     </div>

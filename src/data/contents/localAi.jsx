@@ -31,8 +31,8 @@ const localAi = {
         For a comprehensive guide on setting up and optimizing local AI in your home lab, watch our detailed video tutorial:
       </p>
       <p className="text-lg">
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          YouTube Video: [Link Placeholder]
+        <a href="https://www.youtube.com/watch?v=XQ7wNqbB1x8&list=PL6WDHPvCZL4EgmUnTtfsx9IpxBx-94iqt&index=6&ab_channel=AIWorkshop" target="_blank" rel="noopener noreferrer">
+          YouTube by AI Workshop: Running AI Models Locally
         </a>
       </p>
     </div>

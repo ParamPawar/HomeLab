@@ -28,8 +28,8 @@ const selfHostedCloud = {
         For a comprehensive guide on setting up a self-hosted cloud in your home lab, watch our tutorial:
       </p>
       <p className="text-lg">
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          YouTube Video: [Link Placeholder]
+        <a href="https://www.youtube.com/watch?v=l9yY_VWCWlM&ab_channel=TechnoTim" target="_blank" rel="noopener noreferrer">
+          YouTube by TechnoTim: Self-Hosted Cloud Setup
         </a>
       </p>
     </div>

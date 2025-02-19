@@ -30,8 +30,8 @@ const firewalls = {
         For a step-by-step guide on setting up and configuring advanced firewalls in your home lab, watch our video tutorial:
       </p>
       <p className="text-lg">
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          YouTube Video: [Link Placeholder]
+        <a href="https://www.youtube.com/watch?v=cjlpp0Da_Qk&ab_channel=VirtualizationHowto" target="_blank" rel="noopener noreferrer">
+          YouTube by VirtualizationHowto: Advanced Firewall Setup for Home Labs
         </a>
       </p>
     </div>

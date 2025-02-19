@@ -34,8 +34,8 @@ const ansible = {
         For a comprehensive guide on setting up and leveraging Ansible in your home lab, check out our video tutorial:
       </p>
       <p className="text-lg">
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          YouTube Video: [Link Placeholder]
+        <a href="https://www.youtube.com/watch?v=yoFTL0Zm3tw&ab_channel=JeffGeerling" target="_blank" rel="noopener noreferrer">
+          YouTube by Jeff Geerling: Ansible Automation for Home Labs
         </a>
       </p>
     </div>

@@ -49,8 +49,8 @@ const nas = {
         For a step-by-step guide on setting up and optimizing your NAS for your home lab, check out our video tutorial:
       </p>
       <p className="text-lg">
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          YouTube Video: [Link Placeholder]
+        <a href="https://www.youtube.com/watch?v=FF56MTZHApE&ab_channel=DevOpsJourney" target="_blank" rel="noopener noreferrer">
+          YouTube by DevOpsJourney: NAS Setup for Home Lab
         </a>
       </p>
     </div>

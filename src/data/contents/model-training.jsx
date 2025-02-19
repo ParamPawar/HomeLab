@@ -40,8 +40,8 @@ const modelTraining = {
         For a comprehensive walkthrough on setting up and optimizing local model training in your home lab, check out our video tutorial:
       </p>
       <p className="text-lg">
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          YouTube Video: [Link Placeholder]
+        <a href="https://www.youtube.com/watch?v=u5Vcrwpzoz8&t=135s&ab_channel=AIJason" target="_blank" rel="noopener noreferrer">
+          YouTube by AIJason: Model Training in Home Labs
         </a>
       </p>
     </div>

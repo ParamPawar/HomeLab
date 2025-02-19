@@ -42,8 +42,8 @@ export const virtualization = {
         For a comprehensive guide on setting up and optimizing virtualization in your home lab, check out our video tutorial:
       </p>
       <p className="text-lg">
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          YouTube Video: [Link Placeholder]
+        <a href="https://www.youtube.com/watch?v=SVQmzaSabEQ&ab_channel=TechnoTim" target="_blank" rel="noopener noreferrer">
+          YouTube by TechnoTim: Virtualization in Your Home Lab
         </a>
       </p>
     </div>

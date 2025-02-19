@@ -29,15 +29,6 @@ const logging = {
       <p className="text-lg">
         Configure your logging tools to filter and prioritize critical events, and integrate alerting mechanisms to notify you of anomalies or security incidents as they occur.
       </p>
-      <h2 className="text-xl font-semibold mt-6">YouTube Video Tutorial</h2>
-      <p className="text-lg">
-        For a step-by-step guide on setting up centralized logging in your home lab, watch our comprehensive video tutorial:
-      </p>
-      <p className="text-lg">
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          YouTube Video: [Link Placeholder]
-        </a>
-      </p>
     </div>
   ),
 };

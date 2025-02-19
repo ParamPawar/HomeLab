@@ -26,13 +26,9 @@ const modelInference = {
       <p className="text-lg">
         To get started with model inference, ensure you have a robust setup that may include GPUs or TPUs for acceleration, and use optimized frameworks like TensorFlow or PyTorch. Experiment with batch processing and model quantization techniques to further improve performance.
       </p>
-      <h2 className="text-xl font-semibold mt-6">YouTube Video Tutorial</h2>
       <p className="text-lg">
-        For a comprehensive, step-by-step guide on deploying and optimizing model inference in your home lab, watch our detailed video tutorial:
-      </p>
-      <p className="text-lg">
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          YouTube Video: [Link Placeholder]
+        <a href="https://www.youtube.com/watch?v=V_0dNE-H2gw&ab_channel=ColeMedin" target="_blank" rel="noopener noreferrer">
+          YouTube by ColeMedin: Model Inference Optimization
         </a>
       </p>
     </div>

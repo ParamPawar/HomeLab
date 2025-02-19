@@ -43,13 +43,7 @@ const networking = {
         A well-planned network setup optimizes performance, ensures security, and prepares your home lab for future growth.
       </p>
       
-      <h2 className="text-xl font-semibold mt-6">YouTube Video Tutorial</h2>
-      <p className="text-lg">
-        For a step-by-step guide on optimizing your home lab network, check out this tutorial:
-      </p>
-      <p className="text-lg">
-        <a href="#" target="_blank" rel="noopener noreferrer">YouTube Video: [Link Placeholder]</a>
-      </p>
+
     </div>
   ),
 };

@@ -41,8 +41,8 @@ const raspberryPi = {
         For a comprehensive walkthrough on setting up and maximizing the potential of a Raspberry Pi in your home lab, check out our video tutorial:
       </p>
       <p className="text-lg">
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          YouTube Video: [Link Placeholder]
+        <a href="https://www.youtube.com/watch?v=yFuTAKq_j3Q&ab_channel=RaidOwl" target="_blank" rel="noopener noreferrer">
+          YouTube by RaidOwl: Raspberry Pi Home Lab Setup
         </a>
       </p>
     </div>

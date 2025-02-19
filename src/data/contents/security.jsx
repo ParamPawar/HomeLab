@@ -37,8 +37,8 @@ import React from 'react';
         For a comprehensive guide on securing your home lab, check out our video tutorial:
       </p>
       <p className="text-lg">
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          YouTube Video: [Link Placeholder]
+        <a href="https://www.youtube.com/watch?v=Cs8yOmTJNYQ&ab_channel=TechnoTim" target="_blank" rel="noopener noreferrer">
+          YouTube by TechnoTim: Home Lab Security Best Practices
         </a>
       </p>
     </div>

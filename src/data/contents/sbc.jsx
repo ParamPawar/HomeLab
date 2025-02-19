@@ -51,8 +51,8 @@ const sbc = {
         For a step-by-step guide on setting up and optimizing SBCs in your home lab, check out our video tutorial:
       </p>
       <p className="text-lg">
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          YouTube Video: [Link Placeholder]
+        <a href="https://www.youtube.com/watch?v=aKmKo_Ua7rQ&t=138s&ab_channel=HardwareHaven" target="_blank" rel="noopener noreferrer">
+          YouTube by HardwareHaven: SBC Home Lab Setup
         </a>
       </p>
     </div>

@@ -31,8 +31,8 @@ const gpuAcceleration = {
         For a step-by-step guide on setting up GPU acceleration in your home lab, check out our comprehensive video tutorial:
       </p>
       <p className="text-lg">
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          YouTube Video: [Link Placeholder]
+        <a href="https://www.youtube.com/watch?v=wYTHR9ExntE&t=556s&ab_channel=HardwareHaven" target="_blank" rel="noopener noreferrer">
+          YouTube by HardwareHaven: GPU Acceleration Setup
         </a>
       </p>
     </div>

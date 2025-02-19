@@ -30,8 +30,8 @@ const vpn = {
         Watch our detailed video tutorial on configuring VPN solutions for your home lab:
       </p>
       <p className="text-lg">
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          YouTube Video: [Link Placeholder]
+        <a href="https://www.youtube.com/watch?v=ey4u7OUAF3c&ab_channel=NetworkChuck" target="_blank" rel="noopener noreferrer">
+          YouTube by NetworkChuck: Setting Up a VPN Server for Home Labs
         </a>
       </p>
     </div>

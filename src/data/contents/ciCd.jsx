@@ -39,8 +39,8 @@ const ciCd = {
         For an in-depth guide on setting up CI/CD pipelines in your home lab, watch our comprehensive tutorial:
       </p>
       <p className="text-lg">
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          YouTube Video: [Link Placeholder]
+        <a href="https://www.youtube.com/watch?v=Xc94HJn1nNo&ab_channel=TechnoTim" target="_blank" rel="noopener noreferrer">
+          YouTube by TechnoTim: CI/CD Pipelines for Home Labs
         </a>
       </p>
     </div>

@@ -48,8 +48,8 @@ const operatingSystems = {
         For a detailed walkthrough on setting up and optimizing operating systems in your home lab, check out our video tutorial:
       </p>
       <p className="text-lg">
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          YouTube Video: [Link Placeholder]
+        <a href="https://www.youtube.com/watch?v=xWz_-gyv3j4&t=429s&ab_channel=ChristianLempa" target="_blank" rel="noopener noreferrer">
+          YouTube by ChristianLempa: Home Lab Operating Systems
         </a>
       </p>
     </div>
