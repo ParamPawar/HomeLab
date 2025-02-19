@@ -26,15 +26,6 @@ const contentStorage = {
       <p className="text-lg">
         Explore various storage options such as NAS systems, cloud-hybrid setups, or dedicated local servers. Implement redundancy with RAID configurations and schedule regular backups to safeguard your digital assets.
       </p>
-      <h2 className="text-xl font-semibold mt-6">YouTube Video Tutorial</h2>
-      <p className="text-lg">
-        For a comprehensive guide on setting up and optimizing content storage in your home lab, watch our detailed video tutorial:
-      </p>
-      <p className="text-lg">
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          YouTube Video: [Link Placeholder]
-        </a>
-      </p>
     </div>
   ),
 };
