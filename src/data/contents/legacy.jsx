@@ -1,48 +1,144 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
+import { Link } from 'react-router-dom'; // For internal linking
 
- const legacy = {
-  title: 'Legacy Hardware & Systems',
-  content: (
-    <div className="space-y-6">
-      <p className="text-lg">
-        Legacy hardware, such as old desktop PCs and servers, offers a cost-effective way to build a robust home lab. While modern devices provide high performance, repurposing legacy systems remains an excellent approach for those who want to learn and experiment without a significant financial investment. These systems can be upgraded and optimized to run virtualization platforms, host network services, or serve as dedicated development and testing environments.
-      </p>
-      <p className="text-lg">
-        Incorporating legacy hardware into your home lab not only minimizes costs but also provides a hands-on opportunity to understand the fundamentals of computer architecture, system administration, and performance tuning. Even if these systems lack the raw power of new equipment, strategic upgrades such as increasing RAM, swapping in SSDs, or enhancing cooling can significantly extend their usability.
-      </p>
-      <h2 className="text-xl font-semibold mt-6">Benefits of Repurposing Legacy Systems</h2>
-      <ul className="list-disc pl-6 space-y-2">
-        <li>
-          <strong>Cost Efficiency:</strong> Using existing hardware can dramatically lower your setup costs.
-        </li>
-        <li>
-          <strong>Learning Opportunity:</strong> Legacy systems provide real-world experience in troubleshooting and upgrading older technology.
-        </li>
-        <li>
-          <strong>Resource Optimization:</strong> With thoughtful enhancements, older hardware can be adapted to run modern software and virtualization platforms.
-        </li>
-        <li>
-          <strong>Environmental Sustainability:</strong> Extending the life of legacy equipment reduces electronic waste.
-        </li>
-      </ul>
-      <p className="text-lg">
-        Many tech enthusiasts have transformed outdated PCs into efficient servers capable of hosting multiple virtual machines, running small-scale web services, or managing data storage. The process of optimizing these systems often involves creative problem-solving and a deep dive into hardware capabilities—skills that are invaluable in the IT field.
-      </p>
-      <p className="text-lg">
-        Moreover, repurposing legacy hardware challenges you to maximize performance despite limitations. This approach not only boosts your technical expertise but also prepares you for future technology transitions. With a well-planned upgrade path and regular maintenance, legacy systems can serve as reliable components in your home lab setup.
-      </p>
-      <h2 className="text-xl font-semibold mt-6">Tips for Optimizing Legacy Systems</h2>
-      <ul className="list-disc pl-6 space-y-2">
-        <li>Upgrade critical components such as memory and storage to boost performance.</li>
-        <li>Install a lightweight Linux distribution to minimize resource usage.</li>
-        <li>Utilize virtualization software that is optimized for older hardware.</li>
-        <li>Ensure proper cooling and regular maintenance to prolong hardware lifespan.</li>
-      </ul>
-      <p className="text-lg">
-        In summary, legacy hardware provides a unique opportunity for budget-conscious enthusiasts to build a capable home lab. By repurposing and optimizing older systems, you can achieve a functional and educational setup that supports both your experimental needs and long-term learning goals.
-      </p>
-    </div>
-  ),
+const Legacy = () => {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Legacy Hardware Homelab: Repurposing Old Systems for Your Home Lab",
+    "description": "Learn how to build a cost-effective homelab with legacy hardware. Discover benefits, optimization tips, and practical uses.",
+    "keywords": "legacy hardware homelab, homelab, home lab legacy systems, repurposed home server, diy tech lab",
+    "author": { "@type": "Person", "name": "Your Name" },
+    "datePublished": "2025-03-08"
+  };
+
+  return (
+    <>
+      {/* SEO Optimization */}
+      <Helmet>
+        <title>Legacy Hardware Homelab: Repurpose Old Systems for Your Home Lab</title>
+        <meta 
+          name="description" 
+          content="Build a homelab with legacy hardware like old PCs and servers. Affordable, educational, and sustainable—perfect for DIY tech enthusiasts."
+        />
+        <meta 
+          name="keywords" 
+          content="legacy hardware homelab, homelab, home lab legacy systems, repurposed home server, diy tech lab, legacy pc homelab"
+        />
+        <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
+      </Helmet>
+
+      {/* Main Content */}
+      <section className="py-10 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-900 dark:to-gray-800 text-gray-800 dark:text-gray-200 transition-all duration-300">
+        {/* Hero Section */}
+        <div className="relative mb-8 md:mb-12">
+          <img
+            src="https://images.unsplash.com/photo-1516397281156-ca07cf9746fc?auto=format&fit=crop&q=80"
+            alt="Legacy hardware homelab setup with old PCs and servers"
+            className="w-full h-48 sm:h-64 md:h-80 object-cover rounded-2xl shadow-xl"
+            loading="lazy"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent rounded-2xl flex items-end p-4 sm:p-6">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white drop-shadow-lg">
+              Legacy Hardware Homelab
+            </h1>
+          </div>
+        </div>
+
+        {/* Content Container */}
+        <div className="max-w-4xl mx-auto space-y-10">
+          {/* Introduction */}
+          <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md">
+            <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4 text-gray-900 dark:text-gray-100">
+              Repurposing Legacy Hardware for Your Homelab
+            </h2>
+            <p className="text-base sm:text-lg leading-relaxed">
+              <strong>Legacy hardware</strong>, like old desktop PCs and servers, is a budget-friendly way to create a powerful <strong>homelab</strong>. While modern systems offer cutting-edge performance, repurposing <strong>legacy systems</strong> lets you experiment, learn, and build a <strong>home lab</strong> without breaking the bank. Upgrade these systems with RAM, SSDs, or better cooling to run virtual machines, host services, or test software in your own DIY tech lab.
+            </p>
+            <p className="text-base sm:text-lg leading-relaxed mt-4">
+              Using legacy hardware in your homelab not only saves money but also teaches you the nuts and bolts of system administration, hardware optimization, and sustainable tech practices—skills that shine in any IT career.
+            </p>
+          </div>
+
+          {/* Benefits */}
+          <div className="bg-white dark:bg-gray-700 p-6 rounded-xl shadow-md">
+            <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4 text-gray-900 dark:text-gray-100">
+              Benefits of a Legacy Hardware Homelab
+            </h2>
+            <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm sm:text-base">
+              <li className="bg-gray-50 dark:bg-gray-600 p-4 rounded-lg">
+                <strong className="text-gray-900 dark:text-gray-100">Cost Efficiency:</strong>
+                <p className="text-gray-700 dark:text-gray-300 mt-1">Reuse old PCs or servers to cut homelab setup costs to nearly zero.</p>
+              </li>
+              <li className="bg-gray-50 dark:bg-gray-600 p-4 rounded-lg">
+                <strong className="text-gray-900 dark:text-gray-100">Learning Opportunity:</strong>
+                <p className="text-gray-700 dark:text-gray-300 mt-1">Master troubleshooting and upgrades with real-world homelab challenges.</p>
+              </li>
+              <li className="bg-gray-50 dark:bg-gray-600 p-4 rounded-lg">
+                <strong className="text-gray-900 dark:text-gray-100">Resource Optimization:</strong>
+                <p className="text-gray-700 dark:text-gray-300 mt-1">Turn legacy systems into capable homelab servers with smart upgrades.</p>
+              </li>
+              <li className="bg-gray-50 dark:bg-gray-600 p-4 rounded-lg">
+                <strong className="text-gray-900 dark:text-gray-100">Sustainability:</strong>
+                <p className="text-gray-700 dark:text-gray-300 mt-1">Reduce e-waste by extending the life of your homelab hardware.</p>
+              </li>
+            </ul>
+          </div>
+
+          {/* Optimization Tips */}
+          <div className="bg-white dark:bg-gray-700 p-6 rounded-xl shadow-md">
+            <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4 text-gray-900 dark:text-gray-100">
+              Tips for Optimizing Legacy Systems in Your Homelab
+            </h2>
+            <p className="text-base sm:text-lg mb-4">
+              Make the most of your legacy hardware homelab with these strategies:
+            </p>
+            <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm sm:text-base">
+              <li className="bg-gray-50 dark:bg-gray-600 p-4 rounded-lg">
+                <strong className="text-gray-900 dark:text-gray-100">Upgrade Components:</strong>
+                <p className="text-gray-700 dark:text-gray-300 mt-1">Add RAM (8-16GB) and SSDs for faster homelab performance.</p>
+              </li>
+              <li className="bg-gray-50 dark:bg-gray-600 p-4 rounded-lg">
+                <strong className="text-gray-900 dark:text-gray-100">Lightweight OS:</strong>
+                <p className="text-gray-700 dark:text-gray-300 mt-1">Install Ubuntu Server or Debian to keep your homelab lean.</p>
+              </li>
+              <li className="bg-gray-50 dark:bg-gray-600 p-4 rounded-lg">
+                <strong className="text-gray-900 dark:text-gray-100">Virtualization:</strong>
+                <p className="text-gray-700 dark:text-gray-300 mt-1">Use Proxmox or VirtualBox for efficient homelab VMs.</p>
+              </li>
+              <li className="bg-gray-50 dark:bg-gray-600 p-4 rounded-lg">
+                <strong className="text-gray-900 dark:text-gray-100">Cooling & Maintenance:</strong>
+                <p className="text-gray-700 dark:text-gray-300 mt-1">Improve airflow and clean regularly to extend homelab life.</p>
+              </li>
+            </ul>
+            <p className="text-base sm:text-lg mt-4">
+              Need more setup advice? Check our <Link to="/homelab-setup" className="text-indigo-600 dark:text-indigo-400 hover:underline">homelab setup guide</Link>.
+            </p>
+          </div>
+
+          {/* Conclusion & CTA */}
+          <div className="bg-indigo-50 dark:bg-indigo-900/30 p-6 rounded-xl shadow-md text-center">
+            <h2 className="text-lg sm:text-xl md:text-2xl font-semibold mb-3 text-indigo-800 dark:text-indigo-200">
+              Start Your Legacy Hardware Homelab
+            </h2>
+            <p className="text-sm sm:text-base text-gray-700 dark:text-gray-300 mb-4">
+              Repurposing legacy hardware transforms old PCs into powerful <strong>homelab servers</strong>. It’s affordable, educational, and eco-friendly—perfect for DIY tech enthusiasts. Optimize your setup to host VMs, web services, or storage in your <strong>home lab</strong>.
+            </p>
+            <Link
+              to="/homelab-requirements"
+              className="inline-block px-6 py-2 bg-indigo-600 dark:bg-indigo-700 text-white rounded-full hover:bg-indigo-700 dark:hover:bg-indigo-800 transition-colors duration-200"
+            >
+              Explore Hardware Needs
+            </Link>
+            <p className="text-sm sm:text-base text-gray-700 dark:text-gray-300 mt-4">
+              Want project ideas? See our <Link to="/homelab-projects" className="text-indigo-600 dark:text-indigo-400 hover:underline">homelab projects guide</Link>.
+            </p>
+          </div>
+        </div>
+      </section>
+    </>
+  );
 };
 
-export default legacy;
+export default Legacy;
